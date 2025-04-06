@@ -12,7 +12,7 @@ interface ApiResponse {
 }
 
 const setCORSHeaders = (res: NextApiResponse<ApiResponse>) => {
-  res.setHeader("Access-Control-Allow-Origin", "http://localhost:5173");
+  res.setHeader("Access-Control-Allow-Origin", "https://md-portfolio-inky.vercel.app/contact");
   res.setHeader("Access-Control-Allow-Methods", "GET, POST, OPTIONS");
   res.setHeader("Access-Control-Allow-Headers", "Content-Type");
 };
